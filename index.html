@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF Tool Box - Professional Online PDF & Utility Tools</title>
+    <meta name="description" content="A comprehensive suite of client-side PDF, Text, Image, and Daily utility tools. Fast, secure, and privacy-focused." />
+    <meta name="keywords" content="PDF tools, image to pdf, pdf converter, pdf editor, pdf compressor, word counter, case converter, password generator, age calculator, study tools, free online tools, browser tools" />
+    <meta property="og:title" content="PDF Tool Box - Professional Online PDF & Utility Tools" />
+    <meta property="og:description" content="A comprehensive suite of client-side PDF, Text, Image, and Daily utility tools. Fast, secure, and privacy-focused." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://letterflow.online/" />
+    <meta property="og:image" content="https://letterflow.online/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PDF Tool Box - Professional Online PDF & Utility Tools" />
+    <meta name="twitter:description" content="A comprehensive suite of client-side PDF, Text, Image, and Daily utility tools. Fast, secure, and privacy-focused." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" href="/favicon.png" />
+
+    <!-- Google snippet placeholder -->
+    <!-- Paste your Google Analytics / AdSense / verification code here. -->
+    <!-- Example: <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script> -->
+    <!-- Example: <meta name="google-site-verification" content="your-verification-code" /> -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                50: '#f5f3ff',
+                100: '#ede9fe',
+                200: '#ddd6fe',
+                300: '#c4b5fd',
+                400: '#a78bfa',
+                500: '#8b5cf6', // Vibrant Purple
+                600: '#7c3aed',
+                700: '#6d28d9',
+                800: '#5b21b6',
+                900: '#4c1d95',
+                950: '#2e1065',
+              }
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-out',
+              'slide-up': 'slideUp 0.5s ease-out',
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              slideUp: {
+                '0%': { transform: 'translateY(20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <!-- PDF.js for rendering -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script>
+      window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "file-saver": "https://esm.sh/file-saver@^2.0.5",
+    "pdf-lib": "https://esm.sh/pdf-lib@^1.17.1",
+    "jszip": "https://esm.sh/jszip@^3.10.1",
+    "react-helmet": "https://esm.sh/react-helmet@^6.1.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-brand-100 selection:text-brand-900">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="PDF Tool Box logo">
+  <rect width="64" height="64" rx="12" fill="#5b21b6" />
+  <path d="M18 12h20l10 10v30a6 6 0 0 1-6 6H18a6 6 0 0 1-6-6V18a6 6 0 0 1 6-6Z" fill="#8b5cf6" />
+  <path d="M34 12v10h10" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M26 34h12" stroke="#fff" stroke-width="4" stroke-linecap="round" />
+  <path d="M26 42h12" stroke="#fff" stroke-width="4" stroke-linecap="round" />
+  <path d="M22 30h4v16h-4z" fill="#fff" />
+  <path d="M34 30h4v16h-4z" fill="#fff" />
+</svg>
