@@ -41,7 +41,6 @@ const Footer: React.FC = () => {
                <li><Link to="/legal#policies" className="hover:text-brand-400 transition-colors">Privacy Policy</Link></li>
                <li><Link to="/legal#policies" className="hover:text-brand-400 transition-colors">Terms of Service</Link></li>
                <li><Link to="/legal#policies" className="hover:text-brand-400 transition-colors">Cookie Policy</Link></li>
-               <li><a href="/ads.txt" className="hover:text-brand-400 transition-colors">Ads.txt</a></li>
                <li><a href="mailto:support@toolbox.app" className="hover:text-brand-400 transition-colors">Contact Support</a></li>
              </ul>
           </div>
