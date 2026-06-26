@@ -81,7 +81,6 @@ const Legal: React.FC = () => {
                   This site may display advertisements through Google AdSense or other authorized advertising networks. We comply with Google's program policies and maintain a safe, user-friendly experience.
                 </p>
                 <ul className="list-disc pl-5 mt-2 space-y-1">
-                /*   <li><strong>Ads.txt:</strong> A valid `ads.txt` file is published at <a href="/ads.txt" className="text-brand-600 hover:text-brand-500">https://letterflow.online/ads.txt</a> to declare authorized sellers.</li> */
                    <li><strong>Invalid Traffic:</strong> We do not generate, buy, or encourage invalid clicks or impressions.</li>
                    <li><strong>Ad Placement:</strong> Ads are positioned to avoid accidental clicks and do not interfere with normal tool usage.</li>
                    <li><strong>Content Requirements:</strong> We do not host adult, violent, illegal, hate speech, or other prohibited content.</li>
