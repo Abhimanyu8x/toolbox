@@ -8,6 +8,11 @@ export interface Tool {
   name: string;
   path: string;
   description: string;
+
+  seoTitle: string;
+  seoDescription: string;
+  cononical: string;
+  
   category: 'PDF' | 'Text' | 'Image' | 'Student' | 'Daily';
   icon: any;
   color: string;
@@ -20,6 +25,9 @@ export const allTools: Tool[] = [
     name: 'Merge PDF', 
     path: '/tools/pdf-merge', 
     description: 'Combine multiple PDFs into one unified document.', 
+    seoTitle:'Merge Pdf Online free -fast & secure | LetterFlow' ,
+    seoDescription:'Merge PDF files online for free without uploading to a server. Fast, secure and privacy-focused PDF merger.',
+    cononical:'https://letterflow.online/tools/pdf-merge',
     category: 'PDF', 
     icon: Files, 
     color: 'text-red-500 bg-red-50 dark:bg-red-900/20',
@@ -29,6 +37,9 @@ export const allTools: Tool[] = [
     name: 'Split PDF', 
     path: '/tools/pdf-split', 
     description: 'Extract pages from your PDF documents.', 
+    seoTitle:'Online Split pdf - Letterflow',
+    seoDescription:'Compress PDF online while maintaining quality. Reduce PDF file size instantly for free.',
+    cononical:'https://letterflow.online/tools/pdf-compress',
     category: 'PDF', 
     icon: Scissors, 
     color: 'text-red-500 bg-red-50 dark:bg-red-900/20',
@@ -47,6 +58,8 @@ export const allTools: Tool[] = [
     name: 'PDF to Image', 
     path: '/tools/pdf-to-image', 
     description: 'Convert PDF pages to high-quality images.', 
+    seoTitle:'Free pdf to image converter Online |LetterFlow.',
+  
     category: 'PDF', 
     icon: FileText, 
     color: 'text-red-500 bg-red-50 dark:bg-red-900/20',
@@ -55,11 +68,14 @@ export const allTools: Tool[] = [
   { 
     name: 'Compress PDF', 
     path: '/tools/pdf-compress', 
-    description: 'Reduce file size while maintaining quality.', 
+    description: 'Reduce file size while maintaining quality.',
+    seoTitle: 'Compress PDF Online Free - Reduce PDF Size | LetterFlow',
+    seoDescription:'Compress PDF files online without losing quality. Reduce PDF file size quickly with our secure browser-based PDF compressor.',
+    canonical:'https://letterflow.online/tools/pdf-compress',
     category: 'PDF', 
     icon: Minimize, 
     color: 'text-red-500 bg-red-50 dark:bg-red-900/20',
-    keywords: 'compress pdf, pdf compressor, reduce pdf size, optimize pdf, shrink pdf'
+    keywords: 'online pdf compressor,pdf size compress online,compress pdf, pdf compressor, reduce pdf size, optimize pdf, shrink pdf'
   },
   { 
     name: 'Delete Pages', 
@@ -92,15 +108,21 @@ export const allTools: Tool[] = [
     name: 'Watermark PDF', 
     path: '/tools/pdf-watermark', 
     description: 'Add text or image watermarks to your PDF.', 
+    seoTitle: "Add Watermark to PDF Online Free | LetterFlow",
+    seoDescription:"Add text or image watermarks to PDF files online for free. Protect your documents with custom watermarks securely in your browser.",
+    canonical:"https://letterflow.online/tools/pdf-watermark",
     category: 'PDF', 
     icon: Stamp, 
     color: 'text-red-500 bg-red-50 dark:bg-red-900/20',
-    keywords: 'watermark pdf, add watermark to pdf, pdf watermark tool, stamp pdf'
+    keywords: 'online watermark add, watermark pdf, add watermark to pdf, pdf watermark tool, stamp pdf'
   },
   { 
     name: 'Page Numbers', 
     path: '/tools/pdf-page-numbers', 
     description: 'Add page numbers to your PDF document.', 
+    seoTitle: "Add Page Numbers to PDF Online | LetterFlow",
+    seoDescription:"Insert page numbers into PDF documents online for free. Customize page numbering style, position, and format instantly.",
+    canonical:"https://letterflow.online/tools/pdf-page-numbers",
     category: 'PDF', 
     icon: Hash, 
     color: 'text-red-500 bg-red-50 dark:bg-red-900/20',
@@ -109,7 +131,10 @@ export const allTools: Tool[] = [
   { 
     name: 'Extract Text', 
     path: '/tools/pdf-extract-text', 
-    description: 'Extract text content from PDF documents.', 
+    description: 'Extract text content from PDF documents.',
+    seoTitle: "Extract Text from PDF Online Free | LetterFlow",
+    seoDescription:"Extract editable text from PDF documents instantly. Copy text from PDF files online with a fast, secure, and privacy-friendly tool.",
+    canonical:"https://letterflow.online/tools/pdf-extract-text",
     category: 'PDF', 
     icon: FileText, 
     color: 'text-red-500 bg-red-50 dark:bg-red-900/20',
@@ -119,6 +144,9 @@ export const allTools: Tool[] = [
     name: 'Crop PDF', 
     path: '/tools/pdf-crop', 
     description: 'Crop PDF pages to remove margins.', 
+    seoTitle: "Add Watermark to PDF Online Free | LetterFlow",
+    seoDescription:"Add text or image watermarks to PDF files online for free. Protect your documents with custom watermarks securely in your browser.",
+    canonical:"https://letterflow.online/tools/pdf-watermark",
     category: 'PDF', 
     icon: Crop, 
     color: 'text-red-500 bg-red-50 dark:bg-red-900/20',
