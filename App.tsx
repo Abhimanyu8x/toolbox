@@ -1,5 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { HashRouter as Router } from 'react-router-dom';
+import {
+  HashRouter as Router,
+  Routes,
+  Route,
+  useLocation
+} from "react-router-dom";
 import { Helmet } from 'react-helmet';
 import { allTools } from './data/tools';
 import toolKeywords from './data/toolKeywords';
