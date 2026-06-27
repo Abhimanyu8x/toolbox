@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter,Routers,Route} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { allTools } from './data/tools';
 import toolKeywords from './data/toolKeywords';
