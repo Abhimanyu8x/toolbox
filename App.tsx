@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { allTools } from './data/tools';
 import toolKeywords from './data/toolKeywords';
@@ -75,7 +75,7 @@ const RouteListener = () => {
     <>
       {currentTool && (
         <Helmet>
-          <title>{currentTool.name} | ToolBox</title>
+          <title>{currentTool.name} | LetterFlow Toolbox</title>
           <meta name="description" content={currentTool.description} />
           <meta name="keywords" content={currentKeywords} />
           <meta name="robots" content="index, follow" />
