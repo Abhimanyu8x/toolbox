@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {
-  HashRouter as Router,
+  BrawserRouter as Router,
   Routes,
   Route,
   useLocation
